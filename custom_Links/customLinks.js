@@ -42,9 +42,10 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
 
     // Mac Downlaod Variables start
         //var macDld = "https://downloads.natron.fr/Mac/releases/Natron-"+versionnum+".dmg"
-        var macCatalinaDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-macOS1015.dmg"
-        var macDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-OSX-64.dmg"
-        var macUniversalDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-OSX-Universal.dmg"
+        var macBigSurDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-macOS11-x86_64.dmg"
+        var macCatalinaDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-macOS1015-x86_64.dmg"
+        var macDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-OSX109-x86_64.dmg"
+        var macUniversalDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-MacOSX106-Universal-i386-x86_64.dmg"
     // Mac Downlaod Variables end
 
     // linux Download Variables Start
@@ -86,6 +87,8 @@ document.getElementById("preversion").href= preversion; //previous version
 //windows downloads end//
 
 //Mac downloads start//
+    document.getElementById("macBigSurDld").href= macBigSurDld;
+    document.getElementById("macBigSurDld").innerHTML= "Download Natron "+versionnum+ " for macOS 11+ dmg&nbsp"+'<i class="fa fa-apple"></i>';
     document.getElementById("macCatalinaDld").href= macCatalinaDld;
     document.getElementById("macCatalinaDld").innerHTML= "Download Natron "+versionnum+ " for macOS 10.15+ dmg&nbsp"+'<i class="fa fa-apple"></i>';
     document.getElementById("macDld").href= macDld;
