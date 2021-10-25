@@ -33,7 +33,7 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
     var chnglognum = "https://github.com/NatronGitHub/Natron/blob/v"+versionnum+"/CHANGELOG.md"
     // Windows Downlaod Variables Start
         //var winDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-setup.exe"
-        var winDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Windows-64.zip"
+        var winDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Windows-x86_64.zip"
         //var winOnlineDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-Windows-x86_64bit-online-release-setup.exe"
         //var winPortableDld = "https://downloads.natron.fr/Windows/releases/64bit/files/Natron-"+versionnum+"-Windows-x86_64bit-no-installer.zip"
         //var winPortableDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Windows-64-no-installer.zip"
@@ -50,10 +50,10 @@ var docuGitLink = "https://github.com/NatronGitHub/Natron/wiki";
 
     // linux Download Variables Start
         //var linDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit.tgz"
-        var linDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Linux-64.tgz"
+        var linDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Linux-x86_64.tgz"
         //var linOnlineDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-Linux-x86_64bit-online-install-release.tgz"
         //var linPortableDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+"-Linux-x86_64bit-portable.tar.xz"
-        var linPortableDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Linux-64-no-installer.tar.xz"
+        var linPortableDld = "https://github.com/NatronGitHub/Natron/releases/download/v"+versionnum+"/Natron-"+versionnum+"-Linux-x86_64-no-installer.tar.xz"
         //var linRpmDld = "https://downloads.natron.fr/Linux/releases/64bit/files/Natron-"+versionnum+".x86_64.rpm"
         //var linDbnDld = "https://downloads.natron.fr/Linux/releases/64bit/files/natron_"+versionnum+"_amd64.deb"
     // Linux Download Variables end
