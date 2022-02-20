@@ -1,8 +1,8 @@
 //Varaibles
 /* version number: changing this number
 will update all version centric variables */
-var versionnum = "2.4.1"
-var versiondate = "2021-10-24"
+var versionnum = "2.4.3"
+var versiondate = "2022-02-19"
 
 //previous version link
 var preversion = "https://sourceforge.net/projects/natron/files/"
