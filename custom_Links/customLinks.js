@@ -81,7 +81,7 @@ document.getElementById("preversion").href= preversion; //previous version
 
 //windows downloads start//
     document.getElementById("winDld").href= winDld;
-    document.getElementById("winDld").innerHTML= "Download Natron "+versionnum+ " for Windows 8.1/10 (64-bit)&nbsp;"+'<i class="fa fa-windows"></i>';
+    document.getElementById("winDld").innerHTML= "Download Natron "+versionnum+ " for Windows 8.1/10/11 (64-bit)&nbsp;"+'<i class="fa fa-windows"></i>';
     //document.getElementById("winOnlineDld").href= winOnlineDld;
     //document.getElementById("winPortableDld").href= winPortableDld;
 //windows downloads end//
