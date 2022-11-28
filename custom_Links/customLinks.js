@@ -92,11 +92,11 @@ document.getElementById("preversion").href= preversion; //previous version
 
 //Mac downloads start//
     document.getElementById("macMontereyDld").href= macMontereyDld;
-    document.getElementById("macMontereyDld").innerHTML= "Download Natron "+versionnum+ " for macOS 12+ dmg&nbsp"+'<i class="fa fa-apple"></i>';
+    document.getElementById("macMontereyDld").innerHTML= "Download Natron "+versionnum+ " for macOS 12+ dmg (Intel 64-bit, runs on Apple silicon with Rosetta 2)&nbsp"+'<i class="fa fa-apple"></i>';
     document.getElementById("macCatalinaDld").href= macCatalinaDld;
-    document.getElementById("macCatalinaDld").innerHTML= "Download Natron "+versionnum+ " for macOS 10.15+ dmg&nbsp"+'<i class="fa fa-apple"></i>';
+    document.getElementById("macCatalinaDld").innerHTML= "Download Natron "+versionnum+ " for macOS 10.15+ dmg (Intel 64-bit, runs on Apple silicon with Rosetta 2)&nbsp"+'<i class="fa fa-apple"></i>';
     document.getElementById("macDld").href= macDld;
-    document.getElementById("macDld").innerHTML= "Download Natron "+versionnum+ " for OS X 10.9+ dmg&nbsp"+'<i class="fa fa-apple"></i>';
+    document.getElementById("macDld").innerHTML= "Download Natron "+versionnum+ " for OS X 10.9+ dmg (Intel 64-bit)&nbsp"+'<i class="fa fa-apple"></i>';
     document.getElementById("macUniversalDld").href= macUniversalDld;
     document.getElementById("macUniversalDld").innerHTML= "Download Natron "+versionnum+ " for OS X 10.6+ dmg (Intel 32/64-bit)&nbsp"+'<i class="fa fa-apple"></i>';
 //Mac downloads end//
